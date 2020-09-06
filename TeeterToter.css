@@ -1,0 +1,152 @@
+body{
+  background: #25A9FC;
+}
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+  z index: 1;
+
+}
+
+.head{
+  position: absolute;
+  top:-20%;
+  left: 5%;
+  width: 10%;
+  height: 10%;
+  background: #00ff40;
+  border-radius: 50%;
+  z index: 2;
+}
+.head-copy{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  background: none;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.head2{
+  position: absolute;
+  top: -20%;
+  left: 70%;
+  width: 10%;
+  height: 10%;
+  background: #ffff00;
+  border-radius: 50%;
+  z index: 3;
+}
+
+.rectangle{
+  position: absolute;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 500px;
+  height: 20px;
+  background: #ff00ff;
+  z index:1
+}
+
+.body1{
+  position: absolute;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  top: -21%;
+  left: 8%;
+  width: 20px;
+  height: 100px;
+  background: #00bfff;
+  z index:2
+}
+
+.body2{
+  position: absolute;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  top: -21%;
+  left: 73%;
+  width: 20px;
+  height: 100px;
+  background: #00bfff;
+  z index:2
+}
+.body3{
+  position: absolute;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  top: 0%;
+  left: 74%;
+  width: 10px;
+  height: 50px;
+  background: #4533b8;
+  z index:2
+}
+
+.body4{
+  position: absolute;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  top: 0%;
+  left: 9%;
+  width: 10px;
+  height: 50px;
+  background: #4533b8;
+  z index:2
+}
+
+.body4 {
+  background-color:lightblue;
+  transform:matrix(.866,0.25,-0.55,0.866,-9,0);
+}
+
+.body3 {
+  background-color:lightblue;
+  transform:matrix(.866,0.25,-.55,-0.866,9,0);
+}
+
+
+.left-arrow {
+	border-color: transparent black;
+	border-style: solid;
+	border-width: 20px 20px 20px 0px;
+	height: 0px;
+	width: 0px;
+}
+
+.right-arrow {
+	border-color: transparent black;
+	border-style: solid;
+	border-width: 20px 0px 20px 20px;
+	height: 0px;
+	width: 0px;
+}
+
+.down-arrow {
+	border-color: none;
+	border-style: none;
+	border-width: 20px 20px 0px 20px;
+	height: 0px;
+	width: 0px;
+}
+
+.up-arrow {
+	border-color: black transparent;
+	border-style: solid;
+	border-width: 0px 250px 70px 250px;
+  top:  -200px;
+  left: -20px;
+  width: 0px;
+  height: 70px;
+
+}
